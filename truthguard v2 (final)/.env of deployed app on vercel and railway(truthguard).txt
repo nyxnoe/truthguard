@@ -1,0 +1,55 @@
+Frontend/ Vercel .env:-
+
+NEXT_PUBLIC_BACKEND_URL : https://truthguard-ai-production.up.railway.app
+
+(from railway)
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0eG1wZmtmb2Vja2NsbHZ6d2d3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc4NDM5ODYsImV4cCI6MjA3MzQxOTk4Nn0.RSQMtazfv34MYQ9Oq94lUOL2AVa4zYprEtw3FRnMG80
+
+NEXT_PUBLIC_SUPABASE_URL : https://ctxmpfkfoeckcllvzwgw.supabase.co
+
+
+
+Backend/ Railway .env:-
+
+AI_SERVICE_URL : https://truthguard-ai-ai-production.up.railway.app
+
+ALLOWED_FILE_TYPES : image/jpeg,image/png,image/gif,video/mp4,video/avi
+
+DEBUG : false
+
+EMBEDDING_MODEL : sentence-transformers/all-MiniLM-L6-v2
+
+JWT_SECRET : mySuperSecretKey123!@
+
+MAX_FILE_SIZE : 50MB
+
+NEXT_PUBLIC_BACKEND_URL : https://truthguard-ai-production.up.railway.app
+
+NEXT_PUBLIC_SUPABASE_URL : https://ctxmpfkfoeckcllvzwgw.supabase.co
+
+NODE_ENV : production
+
+SUPABASE_SERVICE_ROLE_KEY : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0eG1wZmtmb2Vja2NsbHZ6d2d3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1Nzg0Mzk4NiwiZXhwIjoyMDczNDE5OTg2fQ.b7AbBDpYeKI-xFTwFTOj9VWsL2c_TX3e1nBuQBcEMfg
+
+
+
+AI service/ Railway .env:-
+
+EMBEDDING_MODEL : sentence-transformers/all-mpnet-base-v2
+
+JWT_SECRET : mySuperSecretKey123!@
+
+MODEL_NAME : meta-llama/llama-3.1-8b-instruct
+
+NEXT_PUBLIC_SUPABASE_URL : https://ctxmpfkfoeckcllvzwgw.supabase.co
+
+OPENROUTER_API_KEY : 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
+
+SERPER_API_KEY : 19bc26b8edbbbcf3d07a8b0723ddbaa1886ac491
+
+SUPABASE_SERVICE_ROLE_KEY : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0eG1wZmtmb2Vja2NsbHZ6d2d3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1Nzg0Mzk4NiwiZXhwIjoyMDczNDE5OTg2fQ.b7AbBDpYeKI-xFTwFTOj9VWsL2c_TX3e1nBuQBcEMfg
+
+
+
+
